@@ -1,0 +1,34 @@
+{
+  "name": "git-shame",
+  "version": "1.0.0",
+  "description": "🔴 Hall of Shame - Gamified CI failures, reverts, and code quality metrics. Who breaks builds? Who reverts most? Public leaderboard.",
+  "type": "module",
+  "bin": {
+    "git-shame": "cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "git",
+    "ci",
+    "failures",
+    "leaderboard",
+    "gamification",
+    "code-quality",
+    "developers",
+    "devops"
+  ],
+  "author": "Arephan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "yargs": "^17.7.2"
+  }
+}
